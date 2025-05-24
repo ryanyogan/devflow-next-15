@@ -15,9 +15,12 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Devflow",
+  title: "DevFlow",
   description:
     "Devflow is a platform for developers to share and discover new tools, libraries, and resources.",
+  icons: {
+    icon: "/images/site-logo.svg",
+  },
 };
 
 export default function RootLayout({
